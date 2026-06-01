@@ -1,0 +1,17 @@
+{
+  "name": "谈判防坑助手",
+  "short_name": "防坑助手",
+  "description": "上传谈判截图，识别陷阱并生成回应。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
