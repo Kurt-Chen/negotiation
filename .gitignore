@@ -6,3 +6,5 @@ dist
 npm-debug.log*
 server.out.log
 server.err.log
+cloudflared.out.log
+cloudflared.err.log

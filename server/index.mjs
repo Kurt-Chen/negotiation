@@ -47,7 +47,10 @@ if (!isProduction) {
   const { createServer } = await import('vite');
   const vite = await createServer({
     root,
-    server: { middlewareMode: true },
+    server: {
+      middlewareMode: true,
+      allowedHosts: ['.trycloudflare.com']
+    },
     appType: 'spa'
   });
   app.use(vite.middlewares);
