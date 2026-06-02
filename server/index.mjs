@@ -16,7 +16,7 @@ app.use(express.json({ limit: '1mb' }));
 app.get('/api/status', (_req, res) => {
   res.json({
     configured: hasDeepSeekKey(),
-    model: process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash'
+    model: process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro'
   });
 });
 
@@ -69,9 +69,10 @@ async function analyzeWithDeepSeek(text, context = '') {
       Authorization: `Bearer ${process.env.DEEPSEEK_API_KEY}`
     },
     body: JSON.stringify({
-      model: process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash',
+      model: process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro',
       temperature: 0.35,
-      thinking: { type: process.env.DEEPSEEK_THINKING || 'disabled' },
+      thinking: { type: process.env.DEEPSEEK_THINKING || 'enabled' },
+      reasoning_effort: process.env.DEEPSEEK_REASONING_EFFORT || 'high',
       response_format: { type: 'json_object' },
       messages: [
         {
