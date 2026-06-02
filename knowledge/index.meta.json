@@ -1,0 +1,41 @@
+{
+  "builtAt": "2026-06-02T02:22:52.176Z",
+  "chunkCount": 3291,
+  "books": [
+    {
+      "id": "negotiation-genius",
+      "title": "Negotiation Genius",
+      "author": "Deepak Malhotra; Max H. Bazerman",
+      "pages": 309,
+      "chunks": 609
+    },
+    {
+      "id": "influence",
+      "title": "Influence, New and Expanded: The Psychology of Persuasion",
+      "author": "Robert B. Cialdini",
+      "pages": 532,
+      "chunks": 1210
+    },
+    {
+      "id": "power-negotiating",
+      "title": "Secrets of Power Negotiating",
+      "author": "Roger Dawson",
+      "pages": 383,
+      "chunks": 691
+    },
+    {
+      "id": "never-split-the-difference",
+      "title": "Never Split the Difference",
+      "author": "Chris Voss; Tahl Raz",
+      "pages": 250,
+      "chunks": 467
+    },
+    {
+      "id": "getting-to-yes",
+      "title": "Getting to Yes",
+      "author": "Roger Fisher; William Ury; Bruce Patton",
+      "pages": 179,
+      "chunks": 314
+    }
+  ]
+}

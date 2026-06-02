@@ -1,0 +1,32 @@
+[
+  {
+    "id": "negotiation-genius",
+    "title": "Negotiation Genius",
+    "author": "Deepak Malhotra; Max H. Bazerman",
+    "path": "D:/path/to/Negotiation Genius.pdf"
+  },
+  {
+    "id": "influence",
+    "title": "Influence, New and Expanded: The Psychology of Persuasion",
+    "author": "Robert B. Cialdini",
+    "path": "D:/path/to/Influence, New and Expanded The Psychology of Persuasion.pdf"
+  },
+  {
+    "id": "power-negotiating",
+    "title": "Secrets of Power Negotiating",
+    "author": "Roger Dawson",
+    "path": "D:/path/to/Secrets of Power Negotiating.pdf"
+  },
+  {
+    "id": "never-split-the-difference",
+    "title": "Never Split the Difference",
+    "author": "Chris Voss; Tahl Raz",
+    "path": "D:/path/to/Never Split the Difference.pdf"
+  },
+  {
+    "id": "getting-to-yes",
+    "title": "Getting to Yes",
+    "author": "Roger Fisher; William Ury; Bruce Patton",
+    "path": "D:/path/to/Getting to Yes.pdf"
+  }
+]
