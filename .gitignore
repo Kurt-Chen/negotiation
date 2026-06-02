@@ -4,6 +4,7 @@ dist
 *.local
 *.tsbuildinfo
 npm-debug.log*
+.dev-server.*.log
 server.out.log
 server.err.log
 cloudflared.out.log
